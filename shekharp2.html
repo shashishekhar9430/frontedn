@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best online Food Delivery services in India / myonlinemeals.com</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:1170px)" href="css/phone.css">
+    <link href="<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <style>
+     {
+         margin:0;
+         padding:0;
+     }
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+
+        :root{
+            --navnbar-height:59px;
+        }
+        #navbar{
+            display: flex;
+            align-items: center;
+        }
+
+        #navbar::before{
+           content: " ";
+           background-color: black;
+           position: absolute;
+           height: 100%;
+           width: 100%;
+           z-index: -1;
+           opacity: 0.4;
+       }
+            /*NAvigation bar: logo and image*/
+        #logo{
+            margin: 10px 34px;
+        }
+         
+        #logo img{
+              height: 56px;
+              margin: 4px 5px;
+              border-radius: 190px;
+        }
+
+       /* Navigation Bar: list styling*/
+
+       #navbar{
+           position:sticky;
+           flex-direction: column;
+       }
+      #navbar ul{
+           display: flex;
+           font-family: 'Bree Serif', serif;
+       }
+       
+       #navbar ul li{
+           list-style: none;
+           font-size: 1.3rem;
+       }
+
+       #navbar ul li a{
+             color: white;
+             display: block;
+             padding: 2px 22px;
+             border-radius: 20px;
+             text-decoration: none;
+             font-size: 1rem;
+             padding: 0px 7px;
+             padding-bottom: 8px;
+       }
+
+       #navbar ul li a:hover{
+             color: black;
+             background-color:white;
+             opacity: ;
+       }
+
+       /*home section*/
+       #home{
+           display: flex;
+           flex-direction: column;
+           padding:3px 200px;
+           height: 660px;
+           justify-content: center;
+           align-items: center;
+           color: greenyellow;
+           height: 450px;
+           padding: 3px 68px;
+           
+       }
+
+       #home::before{
+           content: " ";
+           background:url('./reso.jpg') no-repeat center center/cover;
+           position: absolute;
+           height: 100%;
+           width: 100%;
+           z-index: -1;
+           opacity: 0.;
+           height: 480px;
+       }
+
+       #home h1{
+           color:white;
+           text-align: center;
+           font-size: 1.5rem;
+           font-family: 'Baloo Tamma 2', cursive;
+       }
+
+       #home p{
+           text-align: center;
+           font-size: 13px;
+           font-family:'Baloo Tamma 2', cursive;
+           
+       }
+
+    /*services section*/
+    #services{
+        margin: 34px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #services .box{
+        border: 2px solid brown;
+        padding: 14px;
+        margin: 2px 0px;
+        border-radius: 28px;
+        background: white;
+        margin-bottom: 20px;
+        border-radius: 28px;
+        
+    }
+
+    #services .box img{
+        height: 160px;
+        margin: auto;
+        display: block;
+    }
+
+    #services .box p{
+        font-family: 'Baloo Tamma 2', cursive;
+    }
+
+    /*clients section*/
+    #client-section{
+         position: relative;
+     }
+
+     #client-section::before{
+         content: "";
+         position: absolute;
+         background: url('b.jpg');
+         width: 100%;
+         height: 85%;
+         z-index: -1;
+         opacity: 0.4;
+     }
+
+    #client{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-wrap: wrap;
+    }
+
+    .client-item{
+        padding: 34px;
+    }
+    #client img{
+        height: auto;
+        width: 66px;
+        padding: 6px;
+    }
+
+    /*contact section*/
+    #contact{
+     position: relative;
+    }
+
+    #contact::before{
+        content: "";
+        position:absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.7;
+        background: url('bb.jpg') no-repeat center center/cover;
+        align-items: center;
+    }
+    #contact-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 34px;
+    }
+    #contact-box input,
+    #contact-box textarea{
+        width:100%;
+        padding: 0.5rem;
+        border-radius: 9px;
+        font-size: 1.1rem;
+    }
+
+    #contact-box form{
+        width: 80%;
+    }
+
+    #contact-box label{
+        width: 1.3rem;
+        font-family: 'Bree Serif', serif;
+    }
+    footer{
+        background: black;
+        color:white
+        padding: 9px 20px; 
+    }
+       /*utility classes*/
+       .h-primary{
+            font-family:'Baloo Tamma 2', cursive;
+           font-size: 26px;
+           padding: 12px;
+       }
+
+       .h-secondary{
+            font-family:'Baloo Tamma 2', cursive;
+           font-size: 2.3rem;
+           padding: 12px;
+       }
+
+       .btn{
+           padding: 4px 8px;
+           border: 2px solid white;
+           background-color: brown;
+           color: white;
+           margin: 17px;
+           font-size: 13px;
+           border-radius: 10px;
+           cursor: pointer;
+
+       }
+        .center{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+    <div id="logo">
+        <img src="p.jpg" alt="">
+    </div> 
+    
+    <ul>
+        <li class="item"><a href="#Home">Home</a></li>
+        <li class="item"><a href="#services-container">services</a></li>
+        <li class="item"><a href="#client-section">our client</a></li>
+        <li class="item"><a href="#contact ">Contact Us</a></li>
+    </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to MyOnlineMeals</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, facilis? Quidem vel enim est autem architecto impedit eveniet dolorum alias quas soluta </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <button class="btn">Order now</button>
+    </section>
+    <section id="services-container">
+          <h1 class="h-primary center">Our services</h1>
+          <div id="services">
+              <div class="box">
+                  <img src="pizza.jpg" alt="">
+                  <h2 class="h-secondary center">Food catering</h2>
+                  <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, voluptates architecto quod temporibus facere quasi Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, asperiores eaque veritatis nesciunt laborum cupiditate sapiente. Cum accusamus perferendis quam delectus pariatur vel.</p>
+              </div>
+              <div class="box">
+                <img src="bulk.jpg" alt="">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, voluptates architecto quod temporibus facere quasi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam laudantium recusandae aliquam deserunt magni explicabo odio amet maiores quasi soluta, rem sequi libero.</p>
+            </div>
+            <div class="box">
+                <img src="order.jpg" alt="">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, voluptates architecto quod temporibus facere quasi Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam alias sunt, soluta culpa sapiente magni asperiores velit voluptates, eum ullam maxime, eligendi fugiat?</p>
+            </div>
+          </div>
+    </section>
+    <section id="client-section">
+       <h1 class="h-primary center">Our client</h1>
+       <div id="client">
+           <div class="client-item">
+           <img src="1.jpg" alt="">        
+           </div>
+           <div class="client-item">
+            <img src="micro.jpg" alt="">        
+            </div>
+            <div class="client-item">
+                <img src="g.jpg" alt="">        
+                </div>
+                <div class="client-item">
+                    <img src="logo3.jpg" alt="">        
+                    </div>
+       </div> 
+    </section>
+    <section id="contact">
+            <h1 class="h-primary center">Contact Us</h1>
+            <div id="contact-box">
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name"
+                        placeholder="Enter your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Email:</label>
+                        <input type="Email" name="name" id="name"
+                        placeholder="Enter your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Mob No:</label>
+                        <input type="Mob No" name="name" id="name"
+                        placeholder="Enter your Mob no">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Message:</label>
+                        <textarea name="Message" id="Message" cols="50" rows="10"></textarea>
+                    
+                    </div>
+                </form>
+            </div>
+    </section>
+    <footer>
+        <div class="center">
+            copyright &copy; www class="MyOnlineMeal.com All rights reserved|
+        </div>
+    </footer>
+</body>
+</html>
